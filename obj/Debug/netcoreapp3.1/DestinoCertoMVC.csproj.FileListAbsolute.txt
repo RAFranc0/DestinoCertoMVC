@@ -8,6 +8,11 @@ C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcor
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\DestinoCertoMVC.pdb
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\DestinoCertoMVC.Views.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\DestinoCertoMVC.Views.pdb
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -33,10 +38,15 @@ C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcor
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
