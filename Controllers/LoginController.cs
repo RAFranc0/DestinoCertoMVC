@@ -36,7 +36,7 @@ namespace DestinoCertoMVC.Controllers
 
                 if (user != null)
                 {
-                    return RedirectToAction("Login", "Login");
+                    return RedirectToAction("PainelUsuario", "Home");
                 }
                 else
                 {

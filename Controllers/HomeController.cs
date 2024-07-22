@@ -23,6 +23,11 @@ namespace DestinoCertoMVC.Controllers
             return View();
         }
 
+        public IActionResult PainelUsuario()
+        {
+            return View();
+        }
+
         public IActionResult CadastroUsuario()
         {
             return View();
@@ -31,12 +36,6 @@ namespace DestinoCertoMVC.Controllers
         public IActionResult Privacy()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
