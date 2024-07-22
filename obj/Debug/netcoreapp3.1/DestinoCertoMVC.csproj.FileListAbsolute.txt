@@ -99,3 +99,4 @@ C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcor
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.pdb
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.genruntimeconfig.cache
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\TelaEdicao.cshtml.g.cs

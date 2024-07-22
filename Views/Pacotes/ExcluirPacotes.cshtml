@@ -24,8 +24,8 @@
                 <td>@pacote.Id</td>
                 <td>@pacote.Origem</td>
                 <td>@pacote.Destino</td>
-                <td>@pacote.Saida.ToString("dd/MM/yyyy")</td>
-                <td>@pacote.Retorno.ToString("dd/MM/yyyy")</td>
+                <td>@pacote.Saida.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@pacote.Retorno.ToString("dd/MM/yyyy HH:mm")</td>
                 <td>
                     <a asp-action="ConfirmarExclusao" asp-route-id="@pacote.Id" class="btn btn-danger">Excluir</a>
                 </td>
@@ -33,3 +33,5 @@
         }
     </tbody>
 </table>
+
+<a asp-action="PainelUsuario" asp-controller="Home">Voltar</a>

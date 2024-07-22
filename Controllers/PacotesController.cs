@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using DestinoCertoMVC.Data;
 using DestinoCertoMVC.Models;
@@ -24,17 +25,29 @@ public class PacotesController : Controller
         return View(pacotes);
     }
 
-    public IActionResult EditarPacotes()
+    public async Task<IActionResult> EditarPacotes()
     {
-        return View();
+        var pacotes = await _context.Pacotes.ToListAsync();
+        return View(pacotes);
     }
 
-    public IActionResult ListarPacotes()
+    public async Task<IActionResult> ListarPacotes()
     {
-        return View();
+        var pacotes = await _context.Pacotes.ToListAsync();
+        return View(pacotes);
     }
 
     public async Task<IActionResult> ConfirmarExclusao(int id)
+    {
+        var pacote = await _context.Pacotes.FindAsync(id);
+        if (pacote == null)
+        {
+            return NotFound();
+        }
+        return View(pacote);
+    }
+
+    public async Task<IActionResult> TelaEdicao(int id)
     {
         var pacote = await _context.Pacotes.FindAsync(id);
         if (pacote == null)
@@ -58,6 +71,7 @@ public class PacotesController : Controller
         return View(pacote);
     }
 
+    [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Excluir(int id)
     {
@@ -70,5 +84,42 @@ public class PacotesController : Controller
         _context.Pacotes.Remove(pacote);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(ExcluirPacotes));
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Editar(int id, [Bind("Id,Nome,Origem,Destino,Saida,Retorno,Atrativos")] PacoteViewModel pacote)
+    {
+        if (id != pacote.Id)
+        {
+            return NotFound();
+        }
+
+        if (ModelState.IsValid)
+        {
+            try
+            {
+                _context.Update(pacote);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!PacoteExists(pacote.Id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            return RedirectToAction("PainelUsuario", "Home");
+        }
+        return View(pacote);
+    }
+
+    private bool PacoteExists(int id)
+    {
+        return _context.Pacotes.Any(e => e.Id == id);
     }
 }

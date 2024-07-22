@@ -1,55 +1,48 @@
-﻿@model PacoteViewModel
+@model DestinoCertoMVC.Models.PacoteViewModel
 
 @{
-    ViewData["Title"] = "Adicionar Pacote";
+    ViewData["Title"] = "Editar Pacote";
 }
 
 <h1>@ViewData["Title"]</h1>
 
-<form asp-action="Adicionar" method="post">
+<h4>Pacote</h4>
+<hr />
+<form asp-action="Editar">
     @Html.AntiForgeryToken()
-
     <div class="form-group">
         <label asp-for="Nome" class="control-label"></label>
         <input asp-for="Nome" class="form-control" />
         <span asp-validation-for="Nome" class="text-danger"></span>
     </div>
-
     <div class="form-group">
         <label asp-for="Origem" class="control-label"></label>
         <input asp-for="Origem" class="form-control" />
         <span asp-validation-for="Origem" class="text-danger"></span>
     </div>
-    
     <div class="form-group">
         <label asp-for="Destino" class="control-label"></label>
         <input asp-for="Destino" class="form-control" />
         <span asp-validation-for="Destino" class="text-danger"></span>
     </div>
-
-    <div class="form-group">
-        <label asp-for="Atrativos" class="control-label"></label>
-        <input asp-for="Atrativos" class="form-control" />
-        <span asp-validation-for="Atrativos" class="text-danger"></span>
-    </div>
-
     <div class="form-group">
         <label asp-for="Saida" class="control-label"></label>
-        <input asp-for="Saida" class="form-control"/>
+        <input asp-for="Saida" class="form-control" type="date" />
         <span asp-validation-for="Saida" class="text-danger"></span>
     </div>
-
     <div class="form-group">
         <label asp-for="Retorno" class="control-label"></label>
-        <input asp-for="Retorno" class="form-control"/>
+        <input asp-for="Retorno" class="form-control" type="date" />
         <span asp-validation-for="Retorno" class="text-danger"></span>
     </div>
-
-    <input type="hidden" asp-for="UsuarioId" value="3" />
-
     <div class="form-group">
-        <button type="submit" class="btn btn-primary">Adicionar</button>
+        <label asp-for="Atrativos" class="control-label"></label>
+        <textarea asp-for="Atrativos" class="form-control"></textarea>
+        <span asp-validation-for="Atrativos" class="text-danger"></span>
+    </div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Salvar</button>
+        <a asp-action="Listar" class="btn btn-secondary">Cancelar</a>
     </div>
 </form>
-
-<a asp-action="PainelUsuario" asp-controller="Home">Voltar</a>
