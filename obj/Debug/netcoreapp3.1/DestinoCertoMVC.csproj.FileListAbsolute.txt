@@ -84,6 +84,10 @@ C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcor
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\PainelUsuario.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\AdicionarPacotes.cshtml.g.cs
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\ConfirmarExclusao.cshtml.g.cs
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\EditarPacotes.cshtml.g.cs
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\ExcluirPacotes.cshtml.g.cs
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\ListarPacotes.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -95,6 +99,3 @@ C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcor
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.dll
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.pdb
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.genruntimeconfig.cache
-C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\EditarPacotes.cshtml.g.cs
-C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\ExcluirPacotes.cshtml.g.cs
-C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Pacotes\ListarPacotes.cshtml.g.cs

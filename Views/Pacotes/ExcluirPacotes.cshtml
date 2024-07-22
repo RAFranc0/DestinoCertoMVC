@@ -1,6 +1,35 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
+﻿@model IEnumerable<PacoteViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Pacotes";
 }
 
-<h1>Excluir</h1>
-<a asp-action="PainelUsuario" asp-controller="Home">Voltar</a>
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Origem</th>
+            <th>Destino</th>
+            <th>Saída</th>
+            <th>Retorno</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pacote in Model)
+        {
+            <tr>
+                <td>@pacote.Id</td>
+                <td>@pacote.Origem</td>
+                <td>@pacote.Destino</td>
+                <td>@pacote.Saida.ToString("dd/MM/yyyy")</td>
+                <td>@pacote.Retorno.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="ConfirmarExclusao" asp-route-id="@pacote.Id" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

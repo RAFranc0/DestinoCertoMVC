@@ -3,14 +3,16 @@ using System;
 using DestinoCertoMVC.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DestinoCertoMVC.Migrations
 {
     [DbContext(typeof(DCDBContext))]
-    partial class DCDBContextModelSnapshot : ModelSnapshot
+    [Migration("20240722032513_AddAtrativosToPacote")]
+    partial class AddAtrativosToPacote
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
