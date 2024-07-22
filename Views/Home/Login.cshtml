@@ -1,0 +1,26 @@
+@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Login</h1>
+    <form asp-action="Login" method="post">
+        <div>
+            <label asp-for="Login"></label>
+            <input asp-for="Login" />
+            <span asp-validation-for="Login"></span>
+        </div>
+        <div>
+            <label asp-for="Senha"></label>
+            <input asp-for="Senha" type="Senha" />
+            <span asp-validation-for="Senha"></span>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</div>
