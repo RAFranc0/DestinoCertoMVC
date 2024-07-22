@@ -23,6 +23,11 @@ namespace DestinoCertoMVC.Controllers
             return View();
         }
 
+        public IActionResult CadastroUsuario()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

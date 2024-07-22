@@ -78,6 +78,7 @@ C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcor
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.TagHelpers.input.cache
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.TagHelpers.output.cache
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\DestinoCertoMVC.RazorCoreGenerate.cache
+C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\CadastroUsuario.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\Raul\Documents\SENAC\Módulo A - Senac\DestinoCertoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
